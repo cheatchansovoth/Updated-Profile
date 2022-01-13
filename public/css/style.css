@@ -144,28 +144,33 @@ li > a:hover:after{
     #avatar {
     height: 380;
     width: 150px;
-    margin: -60% 0 0% 50%;
+    margin: -120% 3% 0% 50%;
 }
     .row h1
     {
 
-      font-size: 0.7rem;
+      font-size: 1.5rem;
       margin: 3%;
 
     }
     .row h3
     {
-      font-size: 0.3rem;
+      font-size: 0.5rem;
       margin-left: 4%;
     }
     .row button
     {
-      width: 70px;
-      height: 30px;
-      font-size: 0.4rem;
+      width: 100px;
+      height: 40px;
+      font-size: 0.8rem;
     }
-    .details
+    #logo
     {
+      font-size: 1.5rem;
+      font-family: 'PT Serif', serif;
+      font-weight: bold;
+      width: 40%;
+      text-align: center;
     }
 
   }

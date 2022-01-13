@@ -1,0 +1,142 @@
+body
+{
+  padding: 0px;
+  margin:0px;
+  height: 100vh;
+  box-sizing: border-box-box;
+  background:linear-gradient(to left top,#2e2c2c,#4d4343);
+}
+.bg-dark {
+    background-color: #282828 !important;
+}
+#logo
+{
+  font-size: 3rem;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+}
+#particles-js
+{
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.row h1,h3
+{
+  font-weight: bold;
+  background:linear-gradient(to right,#e8e7e3,#e3deca);
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+}
+.details
+{
+  margin-top:11%;
+}
+.row h1
+{
+
+  font-size: 3rem;
+  margin: 3%;
+
+}
+.row h3
+{
+  font-size: 1.5rem;
+  margin-left: 4%;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 50%;
+}
+.navbar-light .navbar-brand {
+    color:#fff;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar
+{
+  font-size: 1rem;
+  font-family: 'PT Serif', serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbarNavAltMarkup
+{
+  text-align: center;
+}
+ul a:hover{
+  color: #FBC02D !important;
+}
+nav li{
+    text-align: center;
+    text-transform: uppercase;
+}
+li > a:after{
+    content: '';
+    display: block;
+    height: 1.5px;
+    background: #FBC02D;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
+li > a:hover:after{
+    transform: scaleX(1);
+    transition: transform .3s;
+}
+.active{
+    color: #FBC02D !important;
+}
+.body-content
+{
+  color: white;
+}
+.container
+{
+  position: absolute;
+  height: 50vh;
+  top:40%;
+  left:25%;
+  transition: transform(-50%,-50%)
+  z-index: 1;
+  letter-spacing: 2px;
+}
+.container .row
+{
+
+  justify-content: center;
+}
+#avatar
+{
+  border-radius: 50%;
+}
+.row button
+{
+  background:linear-gradient(to left top,#383837,#636352);
+  height: 50px;
+  width: 150px;
+  color:#fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  margin:4% 0 0 4%;
+}
+@media only screen and (max-width: 919px) {
+  .container
+  {
+    top:20%;
+  }
+  .details {
+    margin-right: 80%;
+  }
+  #avatar
+  {
+    height: 380;
+    width: 320px;
+    margin:-60% 0 0% 50%;
+  }
+}

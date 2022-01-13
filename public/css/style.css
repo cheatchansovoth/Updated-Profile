@@ -131,12 +131,42 @@ li > a:hover:after{
     top:20%;
   }
   .details {
-    margin-right: 80%;
+    margin-right: 50%;
   }
   #avatar
   {
     height: 380;
     width: 320px;
     margin:-60% 0 0% 50%;
+  }
+  @media only screen and (max-width: 490px)
+  {
+    #avatar {
+    height: 380;
+    width: 150px;
+    margin: -60% 0 0% 50%;
+}
+    .row h1
+    {
+
+      font-size: 0.7rem;
+      margin: 3%;
+
+    }
+    .row h3
+    {
+      font-size: 0.3rem;
+      margin-left: 4%;
+    }
+    .row button
+    {
+      width: 70px;
+      height: 30px;
+      font-size: 0.4rem;
+    }
+    .details
+    {
+    }
+
   }
 }
